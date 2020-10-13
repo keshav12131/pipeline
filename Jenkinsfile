@@ -3,8 +3,13 @@ pipeline{
   stages{
    stage (build){
     steps{
-     bat 'echo "Hello"'
+     bat 'echo "Hello"
     }
     }
   }
+ post{
+  always{
+  bat 'echo "Completed"' 
+  }
+ }
 }
