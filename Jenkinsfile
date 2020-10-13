@@ -12,4 +12,7 @@ pipeline{
   bat 'echo "Completed"' 
   }
  }
+ failure{
+  bat 'echo "Failedddd"' 
+ }
 }
