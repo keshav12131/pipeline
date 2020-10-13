@@ -11,8 +11,8 @@ pipeline{
   always{
   bat 'echo "Completed"' 
   }
- }
  failure{
   bat 'echo "Failedddd"' 
+ }
  }
 }
